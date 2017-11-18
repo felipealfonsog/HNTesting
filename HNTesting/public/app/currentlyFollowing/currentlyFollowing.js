@@ -1,4 +1,4 @@
-angular.module('hack.currentlyFollowing', [])
+ angular.module('hack.currentlyFollowing', [])
 
 .controller('CurrentlyFollowingController', function ($scope, Followers) {
   $scope.currentlyFollowing = Followers.following;
@@ -9,10 +9,11 @@ angular.module('hack.currentlyFollowing', [])
 
   $scope.unfollow = function(user){
     Followers.removeFollower(user);
-  };
+  }
 
   init();
 
   return {
   }
-});
+}); 
+

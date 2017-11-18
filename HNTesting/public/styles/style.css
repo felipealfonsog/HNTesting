@@ -88,8 +88,9 @@ a{
 
 .feed {
   float: left;
-  margin-left: 545px;
+  margin-left: 345px;
   margin-top: 30px;
+  position: absolute;
 }
 
 .story{
@@ -127,6 +128,7 @@ a{
   font-size: 16px;
   font-weight: 600;
   font-family: 'open sans';
+
 }
 
 .bottom-row {
